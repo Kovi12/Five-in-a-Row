@@ -1,0 +1,46 @@
+# Local environments and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+creds.json
+arduino_secrets.h
+# Generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+target/
+build/
+dist/
+out/
+.idea/
+.vs/
+cmake-build-*/
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.log
+# Local data and models
+data/*
+!data/**/
+!data/**/*.py
+Input/
+Intermediary/
+Output/
+*.db
+*.sqlite*
+*.csv
+*.jsonl
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.pt
+*.safetensors
